@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="ad.size" content="width=, height=">
+    <title>Volvo V60 AlwaysON | 300x600_940x600_V60</title>
+
+    <style>
+        #canvas {
+            position: relative;
+            overflow: hidden;
+            width: 940px;
+            height: 600px;
+        }
+
+        a#mouseOver {
+          position: absolute;
+          z-index: 100;
+          width: 300px;
+          height: 600px;
+          left: 639px;
+        }
+
+        a#clickArea {
+            position: absolute;
+            z-index: 100;
+            width: 940px;
+            height: 600px;
+        }
+
+        .canvas_retraida, .retraida {
+          overflow: hidden;
+        }
+
+        .retraida {
+            position: absolute;
+            width: 300px;
+            height: 600px;
+            background-color: #cbcbcb;
+        }
+
+        .logo0_volvo {
+            position: absolute;
+            left: 225px;
+            top: 16px;
+            width: 58px;
+            height: 58px;
+        }
+
+        .txt0_1 {
+            position: absolute;
+            left: 24px;
+            top: 169px;
+        }
+
+        .txt0_2 {
+            position: absolute;
+            left: 24px;
+            top: 197px;
+        }
+
+        .txt0_3 {
+            position: absolute;
+            left: 24px;
+            top: 219px;
+        }
+
+        .carro0Completo {
+            position: absolute;
+            left: 21px;
+            top: 275px;
+            z-index: 5;
+        }
+
+        .carro0_sombra {
+            position: absolute;
+            left: -13px;
+            top: 44px;
+        }
+
+        .rodas0 {
+            position: absolute;
+        }
+
+        .roda0_1 {
+            position: absolute;
+            transform: scale(0.38);
+            left: 30px;
+            top: 50px;
+        }
+
+        .roda0_2 {
+            position: absolute;
+            left: 188px;
+            top: 50px;
+            transform: scale(0.38);
+        }
+
+        .cta0_passemouse {
+            position: absolute;
+            left: 100px;
+            top: 410px;
+        }
+
+        .cta0_bg {
+            position: absolute;
+            left: 61px;
+            top: 400px;
+            width: 178px;
+            height: 30px;
+        }
+
+        .canvas_expandida {
+          display: none;
+        }
+
+        .expandida {
+            position: absolute;
+            width: 940px;
+            height: 600px;
+            background-color: #cbcbcb;
+        }
+
+        .logo_volvo {
+            position: absolute;
+            left: 850px;
+            top: 14px;
+        }
+
+        .txt1_1 {
+            position: absolute;
+            left: 243px;
+            top: 102px;
+        }
+
+        .carro1Completo {
+            position: absolute;
+            left: 120px;
+            top: 233px;
+            z-index: 5;
+        }
+
+        .carro1_sombra {
+            position: absolute;
+            left: -36px;
+            top: 118px;
+        }
+
+        .rodas1 {
+            position: absolute;
+        }
+
+        .roda1_1 {
+            position: absolute;
+            left: 88px;
+            top: 138px;
+        }
+
+        .roda1_2 {
+            position: absolute;
+            left: 520px;
+            top: 138px;
+        }
+
+        .txt2_1 {
+            position: absolute;
+            left: 317px;
+            top: 109px;
+        }
+
+        .carro2Completo {
+            position: absolute;
+            left: 202px;
+            top: 202px;
+            z-index: 5;
+        }
+
+        .carro2_sombra {
+            position: absolute;
+            left: -74px;
+            top: -70px;
+        }
+
+        .rodas2 {
+            position: absolute;
+        }
+
+        .roda2_1 {
+            position: absolute;
+            left: 11px;
+            top: 121px;
+            transform: scale(0.35, 0.8);
+        }
+
+        .roda2_2 {
+            position: absolute;
+            left: 198px;
+            top: 143px;
+            transform: scale(0.54, 0.99);
+        }
+
+        .cta_txt {
+            position: absolute;
+            left: 351px;
+            top: 488px;
+        }
+
+        .cta_bg {
+            position: absolute;
+            left: 326px;
+            top: 472px;
+        }
+
+        .txt_legal {
+            position: absolute;
+            left: 7px;
+            top: 568px;
+        }
+
+    </style>
+
+    <script type="text/javascript">
+      var clickTag = "%%CLICK_URL_ESC%%%%DEST_URL%%";
+      document.getElementById('clickArea').href = clickTag; 
+    </script>
+</head>
+
+<body style="margin: 0; padding: 0;">
+
+  <div id="canvas">
+    <div class="canvas_retraida" id="canvas_retraida">
+        <a href="#" target="_blank" id="mouseOver">
+          <div class="retraida">
+            <img src="logo_volvo.png" class="logo0_volvo" alt="Logo Volvo">
+            <img src="txt0_1.png" class="step0 txt0_1" alt="Prático">
+            <img src="txt0_2.png" class="step0 txt0_2" alt="E elegante">
+            <img src="txt0_3.png" class="step0 txt0_3" alt="Como você.">
+            <div class="carro0Completo">
+              <img src="carro0.png" class="carro0">
+              <img src="carro0_sombra.png" class="carro0_sombra">
+              <div class="roda0_1"><img src="roda.png" class="rodas0"></div>
+              <div class="roda0_2"><img src="roda.png" class="rodas0"></div>
+            </div>
+            <img src="cta_passemouse.png" class="cta0 cta0_passemouse" alt="Passe o mouse">
+            <img src="cta_bg.png" class="cta0 cta0_bg" alt="Borda preta">
+          </div>
+        </a>
+      </div>
+
+      <div class="canvas_expandida" id="canvas_expandida">
+        <a href="%%CLICK_URL_ESC%%%%DEST_URL%%" target="_blank" id="clickArea">
+          <div class="expandida">
+          <img src="logo_volvo.png" class="logo_volvo" alt="Logo Volvo">
+            <img src="txt1_1.png" class="step1 txt1_1" alt="Prático e elegante como você.">
+            <div class="carro1Completo">
+              <img src="carro1.png" class="carro1">
+              <img src="carro1_sombra.png" class="carro1_sombra">
+              <div class="roda1_1"><img src="roda.png" class="rodas1"></div>
+              <div class="roda1_2"><img src="roda.png" class="rodas1"></div>
+            </div>
+            <img src="txt2_1.png" class="step2 txt2_1" alt="Conheça o Volvo V60">
+            <div class="carro2Completo">
+              <img src="carro2.png" class="carro2">
+              <img src="carro2_sombra.png" class="carro2_sombra">
+              <div class="roda2_1"><img src="roda.png" class="rodas2"></div>
+              <div class="roda2_2"><img src="roda.png" class="rodas2"></div>
+            </div>
+            <img src="cta_txt.png" class="cta cta_txt" alt="Agende um test drive">
+            <img src="cta_bg.png" class="cta cta_bg" alt="Borda preta">
+            <img src="txt_legal.png" class="step2 txt_legal" alt="No trânsito, a vida vem primeiro.">
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <!-- LOAD GREENSOCK -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script> -->
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.20.0_d360d9a082ccc13b1a1a9b153f86b378_min.js"></script>
+    
+    <script type="text/javascript">
+      document.getElementById("mouseOver").onmouseenter = function() {
+        mouseOver()
+      };
+      document.getElementById("clickArea").onmouseleave = function() {
+        mouseOut()
+      };
+
+      function mouseOver() {
+        document.getElementById("canvas_retraida").style = ("display: none;");
+        document.getElementById("canvas_expandida").style = ("display: block;");
+        tl_expandida.restart();
+      }
+
+      function mouseOut() {
+        document.getElementById("canvas_retraida").style = ("display: block;");
+        document.getElementById("canvas_expandida").style = ("display: none;");
+        tl_retraida.restart();
+      }
+    </script>
+
+    <!-- ANIMATIONS SCRIPTS -->
+    <script>
+
+        tl_retraida = new TimelineLite();
+        tl_retraida
+            //STEP 0
+            .from(".logo0_volvo", 0.7, {scale: 0.4, autoAlpha: 0, ease:Back.easeInOut.config(2)}, "-=1.8")
+            .staggerFrom(".step0", 0.8, {autoAlpha:0, x:30, ease:Power3.easeOut}, 0.2, "-=1.3")
+            .from(".carro0Completo",  1.2, {x:-300, scale:1, ease:Power1.easeOut}, 0.5)
+            .from(".rodas0", 1.2, {rotation:-320, ease:Power1.easeOut}, 0.5)
+            .from(".carro0", 0.1, {x:0.5, y:0.5})
+            .from(".cta0_passemouse", 1, {scale:0.4, autoAlpha:0, ease:Back.easeInOut.config(2)}, "-=0.8")
+            .from(".cta0_bg", 1, {scale:0.4, autoAlpha:0, ease:Back.easeInOut.config(2)}, "-=0.9");
+
+        tl_expandida = new TimelineLite();
+        tl_expandida
+            //STEP 1
+            .from(".logo_volvo", 0.7, {scale: 0.4, autoAlpha: 0, ease:Back.easeInOut.config(2)}, "-=1.8")
+            .staggerFrom(".step1", 0.8, {autoAlpha:0, y:30, ease:Power3.easeOut}, 0.2, "-=1.3")
+            .from(".carro1Completo",  1.6, {x:-1000, scale:1, ease:Power1.easeOut}, 0.5)
+            .from(".rodas1", 1.6, {rotation:-320, ease:Power1.easeOut}, 0.5)
+            .from(".carro1", 0.1, {x:1.5, y:1})
+            .add(TweenMax.from(".txtStep1",  0, {}), "+=3")
+            .staggerTo(".step1", 0.8, {autoAlpha:0, y:-30, ease:Power3.easeIn}, 0.2, "-=1.3")
+            .to(".carro1Completo",  1.6, {x:1000, scale:1, ease:Back.easeIn.config(0.6)}, 3.8)
+            .to(".rodas1", 1.6, {rotation:320, ease:Back.easeIn.config(0.6)}, 3.8)
+            //STEP 2
+            .staggerFrom(".step2", 0.8, {autoAlpha:0, y:30, ease:Power3.easeOut}, 0.2)
+            .from(".carro2Completo",  1.6, {x:798, y:116, scale:1.1, ease:Power1.easeOut}, 5.8)
+            .from(".rodas2", 1.6, {rotation:320, ease:Power1.easeOut}, 5.8)
+            .from(".carro2", 0.1, {x:-1.5, y:1})
+            .from(".cta_txt", 1, {scale:0.4, autoAlpha:0, ease:Back.easeInOut.config(2)}, "-=0.8")
+            .from(".cta_bg", 1, {scale:0.4, autoAlpha:0, ease:Back.easeInOut.config(2)}, "-=0.9");
+
+    </script>
+</body>
+</html>
